@@ -1,0 +1,129 @@
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+\usepackage{graphics, subfigure}
+% \usepackage[none]{hyphenat}
+
+\begin{document}
+
+\begin{minipage}[t]{0.4\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Jack}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Malcom}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Freshman Developer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Fayetteville Arkansas}\\
+	\icon{Phone}{12}{+1 815 570 7086}\\
+	\icon{At}{12}{\href{mailto:jackxmalcom@gmail.com}{jackxmalcom@gmail.com}}\\	
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip}
+	\icon{Globe}{12}{\href{https://jackmal.com}{jackmal.com (Work in progress)}}\\
+	\icon{Github}{12}{\href{https://github.com/dizeeee}{github.com/dizeeee}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+	\begin{minipage}[t]{0.45\textwidth}
+		\vspace{-\baselineskip} % Required for vertically aligning minipages
+		\cvsect{About me}
+
+		I am a 19 year old freshman currently majoring in Computer Science at the University of Arkansas. I have a background in simple server management and web design.
+
+	\end{minipage}
+	\hfill % Whitespace between
+	\hfill
+	\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+		\vspace{-\baselineskip} % Required for vertically aligning minipages
+		\cvsect{Skills}
+		\skill{ubuntu}
+		\skill{nodejs}
+		\skill{java}
+		\skill{html}
+		\skill{css}
+		\skill{javascript}
+		\vspace{.2cm}\\
+		\skill{cpp}
+		\skill{git}
+		
+	\end{minipage}
+
+\vspace{0.5cm}
+
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2018 - Current}
+		{Computer Science BS}
+		{}
+		{University of Arkansas, Fayetteville Arkansas}
+	\entry
+		{2014 -- 2018}
+		{High School}
+		{}
+		{Lincoln-Way East, Frankfort Illinois}
+\end{entrylist}
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{Mar. 2019}
+		{4th place in Hackathon}
+		{ACM Spring Hackathon (Sponsored by J.B. Hunt)}
+		{Paced 4th our of 19 teams at the Spring 2019 Hackathon. Used serial output from arduinos to update a web server with showing loads of various trucks. The team was comprised mostly of freshman, and the source code can be found on my github in the spinghackathon2019 repo.\
+		\newline\texttt{Node.js}\slashsep\texttt{C}\slashsep\texttt{HTML}\slashsep\texttt{CSS}}
+\end{entrylist}
+
+\cvsect{Awards}
+
+\begin{entrylist}
+	\entry
+		{Jan. 2018}
+		{Eagle Scout with three palms}
+		{Frankfort Troop 270}
+		{I am an Eagle Scout that grew up in the scouting program. My Eagle Project was to build a Gaga Ball pit for our local park district, which involved weeks of planning, fundraising, and prepping to complete. The contstruction itself took three days and I led about 20 other Scouts in total during the process.}
+\end{entrylist}
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{English} - Native\\
+	\textbf{German} - Intermediate (3 Years)\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.25\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Clubs}
+	
+	\textbf{ACM} - 2 Semesters\\
+	\textbf{Game Club} - 2 Semesters\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Source}
+	
+	This entire resume is written using LaTeX and is completely open source. All source code is hosted on my Github in the \href{https://www.github.com/Dizeeee/resume}{resume repo.}
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
