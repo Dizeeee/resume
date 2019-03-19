@@ -88,10 +88,15 @@
 }
 
 % Needs to be contained in a figure to work, this is for minipage compatibility
-\newcommand{\skill}[1]{
-	\def\svgwidth{.8cm}
-	\input{#1.pdf_tex}
-	\hspace{.2cm}
+\newcommand{\skill}[2]{
+	\begin{minipage}[t]{0.15\textwidth}
+		\centerline{
+			\def\svgwidth{.8cm}
+			\input{#1.pdf_tex}\\
+		}
+		\vspace{0cm}
+		\centerline{#2}
+	\end{minipage}
 }
 
 %----------------------------------------------------------------------------------------

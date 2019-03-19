@@ -1,4 +1,4 @@
-Copyright (c) <2018> <Jan Vorisek>
+Copyright (c) <2019> <Jack Malcom>
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
