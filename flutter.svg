@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="64"
+   width="64"
+   version="1.1"
+   id="svg3856"
+   sodipodi:docname="flutter.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata3862">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3860" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     id="namedview3858"
+     showgrid="false"
+     inkscape:zoom="12.265625"
+     inkscape:cx="13.452229"
+     inkscape:cy="32"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3854" />
+  <clipPath
+     id="a">
+    <path
+       d="m959.4 500-279.6 279.7 279.6 279.7h-319.5l-279.7-279.7 279.7-279.7zm-319.5-479.3-519.3 519.3 159.8 159.8 679-679.1h-319.5z"
+       id="path3813" />
+  </clipPath>
+  <clipPath
+     id="b">
+    <path
+       d="m959.4 500-279.6 279.7 279.6 279.7h-319.5l-279.7-279.7 279.7-279.7zm-319.5-479.3-519.3 519.3 159.8 159.8 679-679.1h-319.5z"
+       id="path3816" />
+  </clipPath>
+  <clipPath
+     id="c">
+    <path
+       d="m959.4 500-279.6 279.7 279.6 279.7h-319.5l-279.7-279.7 279.7-279.7zm-319.5-479.3-519.3 519.3 159.8 159.8 679-679.1h-319.5z"
+       id="path3819" />
+  </clipPath>
+  <clipPath
+     id="d">
+    <path
+       d="m959.4 500-279.6 279.7 279.6 279.7h-319.5l-279.7-279.7 279.7-279.7zm-319.5-479.3-519.3 519.3 159.8 159.8 679-679.1h-319.5z"
+       id="path3822" />
+  </clipPath>
+  <linearGradient
+     id="e"
+     gradientUnits="userSpaceOnUse"
+     x1="566.635"
+     x2="685.65"
+     y1="970.339"
+     y2="851.324">
+    <stop
+       offset="0"
+       stop-color="#1a237e"
+       stop-opacity=".4"
+       id="stop3825" />
+    <stop
+       offset="1"
+       stop-color="#1a237e"
+       stop-opacity="0"
+       id="stop3827" />
+  </linearGradient>
+  <clipPath
+     id="f">
+    <path
+       d="m959.4 500-279.6 279.7 279.6 279.7h-319.5l-279.7-279.7 279.7-279.7zm-319.5-479.3-519.3 519.3 159.8 159.8 679-679.1h-319.5z"
+       id="path3830" />
+  </clipPath>
+  <radialGradient
+     id="g"
+     cx="7824.659"
+     cy="-2855.979"
+     gradientTransform="matrix(.25 0 0 -.25 -1812 -622.5)"
+     gradientUnits="userSpaceOnUse"
+     r="5082.889">
+    <stop
+       offset="0"
+       stop-color="#fff"
+       stop-opacity=".1"
+       id="stop3833" />
+    <stop
+       offset="1"
+       stop-color="#fff"
+       stop-opacity="0"
+       id="stop3835" />
+  </radialGradient>
+  <g
+     transform="matrix(.061615 0 0 .061615 -1.430818 -1.2754)"
+     id="g3854">
+    <g
+       clip-path="url(#a)"
+       id="g3840">
+      <path
+         d="m360.3 779.7 159.7 159.8 439.4-439.5h-319.5z"
+         fill="#39cefd"
+         id="path3838" />
+    </g>
+    <path
+       clip-path="url(#b)"
+       d="m639.9 20.7h319.5l-679 679.1-159.8-159.8z"
+       fill="#39cefd"
+       id="path3842" />
+    <path
+       clip-path="url(#c)"
+       d="m520 939.5 119.9 119.8h319.5l-279.6-279.6z"
+       fill="#03569b"
+       id="path3844" />
+    <path
+       clip-path="url(#d)"
+       d="m757 857.4-77.2-77.7-159.8 159.8z"
+       fill="url(#e)"
+       id="path3846" />
+    <g
+       clip-path="url(#f)"
+       id="g3850">
+      <path
+         d="m360.282 779.645 159.804-159.805 159.814 159.805-159.814 159.805z"
+         fill="#16b9fd"
+         id="path3848" />
+    </g>
+    <path
+       d="m959.4 500-279.6 279.7 279.6 279.7h-319.5l-279.7-279.7 279.7-279.7zm-319.5-479.3-519.3 519.3 159.8 159.8 679-679.1h-319.5z"
+       fill="url(#g)"
+       id="path3852"
+       style="fill:#000000;fill-opacity:1" />
+  </g>
+</svg>
