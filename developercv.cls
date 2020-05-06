@@ -36,7 +36,7 @@
 
 \usepackage[hidelinks]{hyperref} % Required for links but hide the default boxes around links
 
-\newcommand{\lorem}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.} % Dummy text
+\newcommand{\lorem}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.}
 
 \pagestyle{empty} % No headers or footers
 
@@ -88,11 +88,15 @@
 }
 
 % Needs to be contained in a figure to work, this is for minipage compatibility
+
+% How to use SVGs in tex
+% https://tex.stackexchange.com/questions/2099/how-to-include-svg-diagrams-in-latex
+
 \newcommand{\skill}[2]{
 	\begin{minipage}[t]{0.15\textwidth}
 		\centerline{
 			\def\svgwidth{.8cm}
-			\input{#1.pdf_tex}\\
+			\input{./skills/#1.pdf_tex}\\
 		}
 		\vspace{0cm}
 		\centerline{#2}
@@ -146,13 +150,10 @@
 
 % Command to output section title headings
 \newcommand{\cvsect}[1]{% The only parameter is the section text
-	\vspace{\baselineskip} % Whitespace before the section title
+	\vspace{4pt} % Whitespace before the section title
 	\colorbox{black}{\textcolor{white}{\MakeUppercase{\textbf{#1}}}}\\% Section title
 }
 
-\newcommand{\cvsectalt}[1]{% The only parameter is the section text
-	\colorbox{black}{\textcolor{white}{\MakeUppercase{\textbf{#1}}}}% Section title
-}
 %----------------------------------------------------------------------------------------
 %	ENTRY LIST
 %----------------------------------------------------------------------------------------
