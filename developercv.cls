@@ -94,10 +94,10 @@
 
 \newcommand{\skill}[2]{
 	\begin{minipage}[t]{0.15\textwidth}
-		\centerline{
-			\def\svgwidth{.8cm}
+		\centering{
+			\def\svgwidth{32pt}
 			\input{./skills/#1.pdf_tex}\\
-		}
+		}		
 		\vspace{0cm}
 		\centerline{#2}
 	\end{minipage}
@@ -172,10 +172,10 @@
 }
 
 \newcommand{\entry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
-	\parbox[t]{0.175\textwidth}{% 17.5% of the text width of the page
+	\parbox[t]{0.15\textwidth}{% 15% of the text width of the page
 		#1 % Leftmost entry date(s) text
 	}%
-	&\parbox[t]{0.825\textwidth}{% 82.5% of the text width of the page
+	&\parbox[t]{0.85\textwidth}{% 85% of the text width of the page
 		\textbf{#2}% Entry heading text
 		\hfill% Horizontal whitespace
 		{\footnotesize \textbf{\textcolor{black}{#3}}}\\% Right-aligned entry qualifier text

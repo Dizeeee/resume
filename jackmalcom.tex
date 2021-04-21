@@ -1,6 +1,6 @@
 \documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
 
-\usepackage{graphics, subfigure}
+\usepackage{blindtext, graphics, subfigure}
 \usepackage[none]{hyphenat}
 % \usepackage[none]{hyphenat}
 
@@ -17,14 +17,14 @@
 	
 	\vspace{6pt}
 	
-	{\huge CS Student} % Career or current job title
+	% {\huge CS Student} % Career or current job title
 \end{minipage}
 \begin{minipage}[t]{0.3\textwidth} % 27.5% of the page width for the first row of icons
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{MapMarker}{12}{Fayetteville Arkansas}\\
+	\icon{MapMarker}{12}{Fayetteville, Arkansas}\\
 	\icon{Phone}{12}{+1 815 570 7086}\\
 	\icon{At}{12}{\href{mailto:jackxmalcom@gmail.com}{jackxmalcom@gmail.com}}\\	
 \end{minipage}
@@ -36,32 +36,33 @@
 
 \vspace{16pt}
 
-	\begin{minipage}[t]{0.35\textwidth}
-		\vspace{-\baselineskip} % Required for vertically aligning minipages
-		\cvsect{About me}
+	% \begin{minipage}[t]{0.35\textwidth}
+	% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	% 	\cvsect{About me}
 
-		I'm currently a student at the University of Arkansas, and focus primarily on web design, cloud management, and Node.js. I enjoy playing video games and have recently started learning the Rust programming language in my free time.
+	% 	WRITE SOMETHING HERE
 
-	\end{minipage}
-	\hfill % Whitespace between
-	\begin{minipage}[t]{0.6\textwidth} % 50% of the page for the skills bar chart
-		\vspace{-\baselineskip} % Required for vertically aligning minipages
+	% \end{minipage}
+	% \hfill % Whitespace between
+	\begin{minipage}[t]{1.0\textwidth} % 50% of the page for the skills bar chart
+		% \vspace{\baselineskip} % Required for vertically aligning minipages
 		\cvsect{Skills}
-		\skill{ubuntu}{Ubuntu}
+		\skill{ubuntu}{Linux}
 		\skill{nodejs}{Node.js}
 		\skill{java}{Java}
-		\skill{html}{HTML}
-		\skill{css}{CSS}
-		\skill{javascript}{Javascript}
-		\vspace{.2cm}\\
+		\skill{react}{React}
+		\skill{python}{Python}
+		\skill{docker}{Docker}
+		\vspace{14pt}\\
 		\skill{cpp}{C++}
 		\skill{git}{Git}
+		\skill{typescript}{Typescript}
 		\skill{flutter}{Flutter}
 		\skill{rust}{Rust}
+		\vspace{8pt}
 	\end{minipage}
 
-\vspace{-6pt}
-
+\vspace{4pt}
 
 \cvsect{Education}
 
@@ -71,68 +72,95 @@
 		{Computer Science BS}
 		{}
 		{University of Arkansas, Fayetteville, Arkansas}
-	\entry
-		{2014 -- 2018}
-		{High School}
-		{}
-		{Lincoln-Way East, Frankfort, Illinois}
+	% \entry
+		% {2014 -- 2018}
+		% {High School}
+		% {}
+		% {Lincoln-Way East, Frankfort, Illinois}
 \end{entrylist}
 
-\cvsect{Leadership Experience}
+\cvsect{Experience}
 
 \begin{entrylist}
 	\entry
-		{2018 -- 2020}
-		{J. B. Hunt Hackathon team lead}
-		{ACM Hackathon}
-		{During my time in college, I have led several hackathon teams with a variety of different members and skill levels. My current team is Team Goose, which has competed twice with relative success. You can find our projects on github at \href{https://github.com/Team-Goose}{github.com/Team-Goose}\
-		\newline\texttt{Node.js}\slashsep\texttt{Dart}\slashsep\texttt{Firebase}}
+		{Fall 2020 -\vspace{4pt}\\Present}
+		{IT and Lab Administrator}
+		{University of Arkansas}
+		{
+			\vspace{-6pt}
+			\begin{itemize}
+				\item Oversaw the development of a maker space at UARK
+				\item Installed and maintained a custom inventory system
+				\item Managed active directory Windows computers
+				\item Deployed several Linux servers for internal projects using Docker to streamline maintenence
+			\end{itemize}
+			\vspace{6pt}
+		}
+
+		\entry
+		{Spring 2021}
+		{ACM / JB Hunt Hackathon Winner}
+		{University of Arkansas}
+		{
+			\vspace{-6pt}
+			\begin{itemize}
+				\item Developed an IoT Nerf gun alarm clock by using an Android app, Python API, and custom servo mount and electronics
+				\item Used a custom Flask web server to listen for API calls
+				\item Designed an Android app that detects when an alarm clock goes off, and makes an API call if the alarm isn't stopped within a set period of time
+			\end{itemize}
+			\vspace{6pt}
+		}
+
+		\entry
+		{Fall 2020 -\vspace{4pt}\\Spring 2021}
+		{Frontend Developer}
+		{Affirma}
+		{
+			\vspace{-6pt}
+			\begin{itemize}
+				\item Developed websites using React, GraphQL, and content management systems
+				\item Maintained existing React and CMS projects
+				\item Worked with clients to expand and improve UI
+			\end{itemize}
+			\vspace{6pt}
+		% \newline\texttt{React}\slashsep\texttt{Wordpress}\slashsep\texttt{CMS Management}
+		}
 \end{entrylist}
 
-\begin{entrylist}
-	\entry
-		{2016 - Current}
-		{Library Page}
-		{Frankfort Public Library}
-		{My job at the library involves maintaining organization, assisting patrons, and helping run various events. I have also helped in training many of the other Pages working at the library today.}\
-\end{entrylist}
+% \cvsect{Awards}
 
-\cvsect{Awards}
+% \begin{entrylist}
+% 	\entry
+% 		{Jan. 2018}
+% 		{Eagle Scout with three palms}
+% 		{Frankfort Troop 270}
+% 		{Being a scout is an important part of my life, and I credit my time with my troop for giving me the leadership skills I have today. The most important part of getting to Eagle Scout, the highest rank in scouting, is by doing an Eagle Project, and mine involved coordinating funding, supplies, and volunteers to create playground equipment for my local park district. The finished product was the culmination of over half a year of organization and the help of more than 20 volunteers.}
+% \end{entrylist}
 
-\begin{entrylist}
-	\entry
-		{Jan. 2018}
-		{Eagle Scout with three palms}
-		{Frankfort Troop 270}
-		{Being a scout is an important part of my life, and I credit my time with my troop for giving me the leadership skills I have today. The most important part of getting to Eagle Scout, the highest rank in scouting, is by doing an Eagle Project, and mine involved coordinating funding, supplies, and volunteers to create playground equipment for my local park district. The finished product was the culmination of over half a year of organization and the help of more than 20 volunteers.}
-\end{entrylist}
+% \begin{minipage}[t]{0.3\textwidth}
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 
+% 	\cvsect{Languages}
+	
+% 	\textbf{English} - Native\\
+% 	\textbf{German} - Intermediate (3 Years)\\
+% \end{minipage}
+% \hfill
 \begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-
-	\cvsect{Languages}
 	
-	\textbf{English} - Native\\
-	\textbf{German} - Intermediate (3 Years)\\
+	\cvsect{Achievements}
+	
+	\textbf{Eagle Scout} - 3 Palms\\
+	\textbf{UARK ACM Hackathon} - 1st Place\\
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.25\textwidth}
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-	\cvsect{Clubs}
-	
-	\textbf{ACM} - 4 Semesters\\
-	\textbf{UARK Esports} - 4 Semesters\\
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.4\textwidth}
+\begin{minipage}[t]{0.65\textwidth}
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	
 	\cvsect{Open Source}
 	
 	This resume is written using LaTeX and is open source under the MIT License. All of the source code is hosted on Github at \href{https://www.github.com/Dizeeee/resume}{github.com/dizeeee/resume}
 \end{minipage}
-
-%----------------------------------------------------------------------------------------
 
 \end{document}
